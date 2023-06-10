@@ -7,6 +7,7 @@ import SearchBar from "../../components/SearchBar";
 import Title from "../../components/Title";
 import { fetchFromBackendApi } from "../../util/api";
 import SmartTable from "../../components/SmartTable";
+import Navbar from "@/components/Navbar";
 
 export default function Page() {
   // Input
@@ -36,6 +37,7 @@ export default function Page() {
 
   return (
     <>
+      <Navbar />
       {/* Gradient dark box that is fullwidth and 300px height */}
       <div className="bg-gradient-to-b from-gray-900 to-gray-800 w-full h-72">
         {/* Centered content */}

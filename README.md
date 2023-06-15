@@ -1,6 +1,6 @@
 # stock-programs-combined
 
-Purpose: A web application that kets users download stock calls and puts from Yahoo Finance.
+Purpose: A web application that lets users download stock calls and puts from Yahoo Finance.
 
 ## Tech stack
 

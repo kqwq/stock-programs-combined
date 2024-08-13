@@ -48,7 +48,7 @@ const Page = () => {
         {/* Split between 2 sides. One has a text input for stocks input, the other is an empty div of results */}
 
         {/* Inputs */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-slate-200">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-slate-200 text-black">
           <div className="flex flex-col items-center justify-center my-8">
             <h2 className="text-2xl font-bold mb-3">Input</h2>
             <span>Comma-separated list of stock tickers</span>

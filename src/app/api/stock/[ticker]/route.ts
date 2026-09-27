@@ -10,7 +10,7 @@ export async function GET(request: Request) {
   //     date ? `?date=${date}` : ""
   //   }`
   // );
-  const res = await fetch(`https://query1.finance.yahoo.com/v7/finance/options/${ticker}${ date ? `?date=${date}&` : "?"}crumb=HC69j5riOcM.`, {
+  const res = await fetch(`https://query1.finance.yahoo.com/v7/finance/options/${ticker}${ date ? `?date=${date}&` : "?"}crumb=HC69j5riOcM`, {
     headers: {
       cookie: 'A1=d=AQABBAe0tWoCEAs_VRCdH_7EhXatoiPTMnUFEgEBAQEFt2q_atww0iMA_eMDAA&S=AQAAAiiKPd8Vz17f5zkm2B5BUk0',
     },
